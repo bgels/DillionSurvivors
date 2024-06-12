@@ -1,0 +1,73 @@
+[gd_scene load_steps=8 format=3 uid="uid://c6f2q47akv7vk"]
+
+[ext_resource type="Script" path="res://Enemy/boss/bossWave.gd" id="1_s8dtq"]
+[ext_resource type="Texture2D" uid="uid://ddhprh5xig6x8" path="res://Assets/bossDillion/01.png" id="2_ql7r2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xbd31"]
+radius = 81.0247
+
+[sub_resource type="Animation" id="Animation_p0wic"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BulletSprite:frame_coords")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2i(0, 6)]
+}
+
+[sub_resource type="Animation" id="Animation_mjtag"]
+resource_name = "waveMove"
+length = 1.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BulletSprite:frame_coords")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Vector2i(0, 6), Vector2i(1, 6), Vector2i(2, 6), Vector2i(3, 6), Vector2i(4, 6), Vector2i(5, 6), Vector2i(6, 6), Vector2i(7, 6)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_waqcx"]
+_data = {
+"RESET": SubResource("Animation_p0wic"),
+"waveMove": SubResource("Animation_mjtag")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wrlnr"]
+animation = &"waveMove"
+
+[node name="waveScene" type="Area2D" groups=["attack"]]
+position = Vector2(0, 1)
+script = ExtResource("1_s8dtq")
+
+[node name="BulletSprite" type="Sprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(4, 4.048)
+texture = ExtResource("2_ql7r2")
+hframes = 11
+vframes = 9
+frame = 66
+
+[node name="BulletHitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_xbd31")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+deterministic = true
+libraries = {
+"": SubResource("AnimationLibrary_waqcx")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeAnimation_wrlnr")
+anim_player = NodePath("../AnimationPlayer")

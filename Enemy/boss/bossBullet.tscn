@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmfc5ftfvd0ie"]
+
+[ext_resource type="Texture2D" uid="uid://pjl3odnb1lre" path="res://Assets/laserRed01.png" id="1_8d2c1"]
+[ext_resource type="Script" path="res://Enemy/boss/bossBullet.gd" id="1_sawdp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vdtt7"]
+size = Vector2(38, 8)
+
+[node name="BulletScene" type="Area2D" groups=["attack"]]
+script = ExtResource("1_sawdp")
+
+[node name="BulletSprite" type="Sprite2D" parent="."]
+position = Vector2(0, -2.27374e-12)
+rotation = 1.5708
+scale = Vector2(0.695313, 0.703125)
+texture = ExtResource("1_8d2c1")
+
+[node name="BulletHitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_vdtt7")
+
+[node name="BulletSprite2" type="Sprite2D" parent="."]
+position = Vector2(14.9844, 31.129)
+rotation = 1.5708
+scale = Vector2(0.695313, 0.703125)
+texture = ExtResource("1_8d2c1")
+
+[node name="BulletHitbox2" type="CollisionShape2D" parent="."]
+position = Vector2(14.9844, 31.129)
+shape = SubResource("RectangleShape2D_vdtt7")
+
+[node name="BulletSprite3" type="Sprite2D" parent="."]
+position = Vector2(23.9844, -27.871)
+rotation = 1.5708
+scale = Vector2(0.695313, 0.703125)
+texture = ExtResource("1_8d2c1")
+
+[node name="BulletHitbox3" type="CollisionShape2D" parent="."]
+position = Vector2(23.9844, -27.871)
+shape = SubResource("RectangleShape2D_vdtt7")

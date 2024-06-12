@@ -1,0 +1,5 @@
+AudioStreamPlayer2D
+Label
+CollisionShape2D
+Area2D
+Timer

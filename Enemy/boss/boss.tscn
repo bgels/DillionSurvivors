@@ -1,0 +1,92 @@
+[gd_scene load_steps=12 format=3 uid="uid://c1s30pcxypoyc"]
+
+[ext_resource type="Script" path="res://Enemy/boss/boss.gd" id="1_8py4p"]
+[ext_resource type="PackedScene" uid="uid://dmfc5ftfvd0ie" path="res://Enemy/boss/bossBullet.tscn" id="2_fhot6"]
+[ext_resource type="Texture2D" uid="uid://bbjamaw7ax2dr" path="res://Assets/dillionBoss/Screenshot 2024-06-08 001044.png" id="2_wkbu2"]
+[ext_resource type="PackedScene" uid="uid://c6f2q47akv7vk" path="res://Enemy/boss/bossWave.tscn" id="3_afulq"]
+[ext_resource type="PackedScene" uid="uid://bj3hmcmc1326q" path="res://Enemy/boss/bossBeam.tscn" id="4_03o13"]
+[ext_resource type="Theme" uid="uid://b17svblli8x1k" path="res://Enemy/boss/boss_healthbar.tres" id="4_soo1a"]
+[ext_resource type="AudioStream" uid="uid://crlhrdvl1ni7q" path="res://Assets/sounds/ow.mp3" id="7_w35qa"]
+[ext_resource type="AudioStream" uid="uid://brrf1pfmwrc6k" path="res://Assets/sounds/boom.mp3" id="8_asdp1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r0gdl"]
+size = Vector2(502, 608)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y2xns"]
+size = Vector2(511, 617)
+
+[sub_resource type="LabelSettings" id="LabelSettings_seo56"]
+font_size = 30
+font_color = Color(1, 0, 0, 1)
+outline_size = 20
+outline_color = Color(0.0431373, 0.0431373, 0.0431373, 0.392157)
+shadow_size = 10
+shadow_color = Color(0.509286, 0.509286, 0.509286, 0.564706)
+shadow_offset = Vector2(10, 10)
+
+[node name="monster_enemy3" type="CharacterBody2D" groups=["boss", "monster"]]
+position = Vector2(560, 531)
+platform_floor_layers = 4294967040
+script = ExtResource("1_8py4p")
+boss_bullet = ExtResource("2_fhot6")
+boss_wave = ExtResource("3_afulq")
+boss_beam = ExtResource("4_03o13")
+
+[node name="SkeletonEnemy" type="Sprite2D" parent="."]
+position = Vector2(-16, -64)
+texture = ExtResource("2_wkbu2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-16, -64)
+shape = SubResource("RectangleShape2D_r0gdl")
+
+[node name="bulletTimer" type="Timer" parent="."]
+wait_time = 0.4
+autostart = true
+
+[node name="beamTimer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="Hitbox" type="Area2D" parent="." groups=["bossAttack", "playerDamaging"]]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(-15.5, -63.5)
+shape = SubResource("RectangleShape2D_y2xns")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ProgressBar" type="ProgressBar" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -5.7
+anchor_top = 6.375
+anchor_right = 5.025
+anchor_bottom = 6.375
+offset_right = 4.0
+offset_bottom = 27.0
+theme = ExtResource("4_soo1a")
+metadata/_edit_use_anchors_ = true
+
+[node name="bossDamaged" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_w35qa")
+
+[node name="bossWave" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_asdp1")
+volume_db = -3.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = -347.0
+offset_top = -429.0
+offset_right = 323.0
+offset_bottom = -387.0
+text = "Overlord Dillionis Magnus Tyrannus Aeternum"
+label_settings = SubResource("LabelSettings_seo56")
+
+[connection signal="timeout" from="beamTimer" to="." method="_on_beam_timer_timeout"]

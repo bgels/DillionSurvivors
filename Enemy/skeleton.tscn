@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://dh8816jncbw2r"]
+
+[ext_resource type="Script" path="res://Enemy/skeleton.gd" id="1_jv0os"]
+[ext_resource type="Texture2D" uid="uid://djsfa0uu52uxc" path="res://Assets/Skeleton/idle_down (1).png" id="2_0cgyv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r0gdl"]
+size = Vector2(39.2629, 42.9375)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4v87q"]
+radius = 31.0644
+
+[node name="monster_enemy2" type="CharacterBody2D" groups=["monster"]]
+position = Vector2(560, 531)
+platform_floor_layers = 4294967040
+script = ExtResource("1_jv0os")
+
+[node name="SkeletonEnemy" type="Sprite2D" parent="."]
+position = Vector2(-1, -3)
+texture = ExtResource("2_0cgyv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_r0gdl")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Hitbox" type="Area2D" parent="." groups=["playerDamaging"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_4v87q")

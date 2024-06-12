@@ -1,0 +1,30 @@
+[gd_scene load_steps=8 format=3 uid="uid://bnxx2t5q7txf4"]
+
+[ext_resource type="Shader" path="res://World/scroll.gdshader" id="1_a2p7n"]
+[ext_resource type="PackedScene" uid="uid://bwrxo01t3bg72" path="res://Enemy/spawner.tscn" id="1_nukqj"]
+[ext_resource type="Script" path="res://World/world.gd" id="1_qoa6y"]
+[ext_resource type="Texture2D" uid="uid://bkl054p30ckyc" path="res://Assets/Clouds/Clouds 3/1.png" id="2_qmnqb"]
+[ext_resource type="PackedScene" uid="uid://cilpwxe7hq33w" path="res://Player/Player.tscn" id="3_7abwp"]
+[ext_resource type="PackedScene" uid="uid://c6r0o5m32kuyf" path="res://Enemy/demon.tscn" id="4_dco83"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d601b"]
+shader = ExtResource("1_a2p7n")
+shader_parameter/speed = 0.1
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_qoa6y")
+
+[node name="monsterSpawn" parent="." instance=ExtResource("1_nukqj")]
+
+[node name="monster_enemy" parent="monsterSpawn" instance=ExtResource("4_dco83")]
+position = Vector2(633, 256)
+
+[node name="Background" type="TextureRect" parent="."]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_d601b")
+offset_right = 960.0
+offset_bottom = 720.0
+texture = ExtResource("2_qmnqb")
+
+[node name="Player" parent="." instance=ExtResource("3_7abwp")]
+position = Vector2(468, 349)

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://d064eie4ogknk"]
+
+[ext_resource type="Script" path="res://Player/BulletArea.gd" id="1_m0mtw"]
+[ext_resource type="Texture2D" uid="uid://pjl3odnb1lre" path="res://Assets/laserRed01.png" id="2_hrhjv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vdtt7"]
+size = Vector2(38, 8)
+
+[node name="BulletScene" type="Area2D"]
+script = ExtResource("1_m0mtw")
+
+[node name="BulletSprite" type="Sprite2D" parent="."]
+position = Vector2(0, -2.27374e-12)
+rotation = 1.5708
+scale = Vector2(0.695313, 0.703125)
+texture = ExtResource("2_hrhjv")
+
+[node name="BulletHitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_vdtt7")

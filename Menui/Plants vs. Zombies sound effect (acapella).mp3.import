@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://q2ddpn5bxoqn"
+path="res://.godot/imported/Plants vs. Zombies sound effect (acapella).mp3-098a6baceb888b8be9d8579424346e9d.mp3str"
+
+[deps]
+
+source_file="res://Menui/Plants vs. Zombies sound effect (acapella).mp3"
+dest_files=["res://.godot/imported/Plants vs. Zombies sound effect (acapella).mp3-098a6baceb888b8be9d8579424346e9d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

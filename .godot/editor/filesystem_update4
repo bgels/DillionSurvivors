@@ -1,0 +1,11 @@
+res://Menui/mainMenu.tscn
+res://Enemy/boss/boss_healthbar.tres
+res://World/world.tres
+res://World/world.tscn
+res://Player/Player.tscn
+res://Enemy/demon.tscn
+res://Enemy/skeleton.tscn
+res://Enemy/boss/boss.tscn
+res://Enemy/boss/bossBullet.tscn
+res://Menui/End.tscn
+res://Menui/mainMenu.gd

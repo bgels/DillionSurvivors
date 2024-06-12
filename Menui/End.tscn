@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=3 uid="uid://n8v5e2bb3c"]
+
+[ext_resource type="Script" path="res://Menui/End.gd" id="1_317ug"]
+[ext_resource type="Texture2D" uid="uid://bkl054p30ckyc" path="res://Assets/Clouds/Clouds 3/1.png" id="1_curpu"]
+[ext_resource type="Texture2D" uid="uid://bal68r1ad3op5" path="res://Assets/Clouds/Clouds 3/4.png" id="2_rroxp"]
+[ext_resource type="Texture2D" uid="uid://edyuwgbi83e2" path="res://Assets/Clouds/Clouds 3/3.png" id="3_8uh5a"]
+[ext_resource type="Texture2D" uid="uid://ebrcl0j06bqx" path="res://Assets/Clouds/Clouds 3/2.png" id="4_jj1np"]
+[ext_resource type="Texture2D" uid="uid://cj2m2nsk5d8x7" path="res://Menui/Play Button.png" id="5_vhsrq"]
+[ext_resource type="Texture2D" uid="uid://cm6ucsw7kgtnv" path="res://Menui/Exit Button.png" id="6_rkm4o"]
+[ext_resource type="AudioStream" uid="uid://jgpk5ri8c0hk" path="res://Menui/Doraemon 9 languages (acapella) (mp3cut.net).mp3" id="8_wid01"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7gkkm"]
+font_size = 60
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_317ug")
+
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(968, 546)
+scale = Vector2(3.38889, 3.45988)
+texture = ExtResource("1_curpu")
+
+[node name="4" type="Sprite2D" parent="."]
+position = Vector2(1141, 771)
+scale = Vector2(2.28733, 2.62037)
+texture = ExtResource("2_rroxp")
+
+[node name="3" type="Sprite2D" parent="."]
+position = Vector2(970, 904)
+scale = Vector2(3.39931, 2.3858)
+texture = ExtResource("3_8uh5a")
+
+[node name="2" type="Sprite2D" parent="."]
+position = Vector2(911.5, 580)
+scale = Vector2(1.46354, 1.61728)
+texture = ExtResource("4_jj1np")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -298.0
+offset_top = -241.0
+offset_right = 310.0
+offset_bottom = 264.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+icon = ExtResource("5_vhsrq")
+flat = true
+
+[node name="quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+icon = ExtResource("6_rkm4o")
+flat = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 678.0
+offset_top = 140.0
+offset_right = 1286.0
+offset_bottom = 223.0
+text = "u died! try again?"
+label_settings = SubResource("LabelSettings_7gkkm")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_wid01")

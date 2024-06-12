@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jgpk5ri8c0hk"
+path="res://.godot/imported/Doraemon 9 languages (acapella) (mp3cut.net).mp3-e79d46a7b37a56175ea77380e0e1c6be.mp3str"
+
+[deps]
+
+source_file="res://Menui/Doraemon 9 languages (acapella) (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Doraemon 9 languages (acapella) (mp3cut.net).mp3-e79d46a7b37a56175ea77380e0e1c6be.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
