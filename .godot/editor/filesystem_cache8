@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718167122
+::res://::1718167322
 export_presets.cfg::TextFile::-1::1717997378::0::1::::<><>::
 icon.svg::CompressedTexture2D::7706652635845425131::1717997378::1718029664::1::::<><>::
 laserRed01.png::CompressedTexture2D::7217592946481703822::1717997378::1718029664::1::::<><>::
 necromancer_enemy.png::CompressedTexture2D::4270068391854564656::1717997378::1718029664::1::::<><>::
 Outside_8_8.png::CompressedTexture2D::7995312441739135622::1717997378::1718029664::1::::<><>::
 RobloxScreenShot20230924_181627914.png::CompressedTexture2D::4165607438901985617::1717997378::1718029666::1::::<><>::
-::res://Assets/::1718159401
+::res://Assets/::1718167317
 bullet.png::CompressedTexture2D::2755794399601156094::1717997378::1718029664::1::::<><>::
 gun.png::CompressedTexture2D::5000985329137675267::1717997378::1718029664::1::::<><>::
 laserRed01.png::CompressedTexture2D::1072130684061139250::1717997378::1718029664::1::::<><>::
 Outside_8_8.png::CompressedTexture2D::6535305543462224261::1717997378::1718029664::1::::<><>::
 ::res://Assets/boss/::1718158498
-::res://Assets/bossDillion/::1718158518
+::res://Assets/bossDillion/::1718167317
 00.png::CompressedTexture2D::8757011049334783041::1718158517::1718158518::1::::<><>::
 01.png::CompressedTexture2D::7385220754723260347::1718158517::1718158518::1::::<><>::
 55.png::CompressedTexture2D::6088609439797340864::1718158517::1718158518::1::::<><>::
@@ -20,63 +20,63 @@ download (2).png::CompressedTexture2D::2312578678504311000::1718158517::17181585
 image(3).png::CompressedTexture2D::2580133209533470713::1718158517::1718158518::1::::<><>::
 orb.png::CompressedTexture2D::1993789276697406190::1718158517::1718158518::1::::<><>::
 Screenshot from 2024-06-07 10-29-33.png::CompressedTexture2D::4735804242055093692::1718158517::1718158518::1::::<><>::
-::res://Assets/Clouds/::1718157723
-::res://Assets/Clouds/Clouds 1/::1718157742
+::res://Assets/Clouds/::1718167317
+::res://Assets/Clouds/Clouds 1/::1718167317
 1.png::CompressedTexture2D::8134538911970036199::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::940059330374054260::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::2113153675133487259::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::8900368111969462331::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 2/::1718157742
+::res://Assets/Clouds/Clouds 2/::1718167317
 1.png::CompressedTexture2D::7748418893777461940::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::7030004365527299681::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::6163246002705284181::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::2933106342773254347::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 3/::1718157742
+::res://Assets/Clouds/Clouds 3/::1718167317
 1.png::CompressedTexture2D::3112590321659302586::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::283856129591538339::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::288442596358787259::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::2411070930029374052::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 4/::1718157742
+::res://Assets/Clouds/Clouds 4/::1718167317
 1.png::CompressedTexture2D::467571413323150081::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::9127112508117220254::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::1536712000276241310::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::2055892129668721349::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 5/::1718157742
+::res://Assets/Clouds/Clouds 5/::1718167317
 1.png::CompressedTexture2D::3828425426888543915::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::8531166434102430154::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::8800333336919346400::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::6886412727670705355::1717997378::1718029665::1::::<><>::
 5.png::CompressedTexture2D::2174945478157022388::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 6/::1718157743
+::res://Assets/Clouds/Clouds 6/::1718167317
 1.png::CompressedTexture2D::2126172365332403391::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::6373029142228180979::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::6197669029751860694::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::8629139923853176433::1717997378::1718029665::1::::<><>::
 5.png::CompressedTexture2D::3723647154773868618::1717997378::1718029665::1::::<><>::
 6.png::CompressedTexture2D::3097066320292505389::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 7/::1718157742
+::res://Assets/Clouds/Clouds 7/::1718167317
 1.png::CompressedTexture2D::399954130004265303::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::7672909191826178704::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::6688215418451875260::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::31826389124927285::1717997378::1718029665::1::::<><>::
-::res://Assets/Clouds/Clouds 8/::1718157742
+::res://Assets/Clouds/Clouds 8/::1718167317
 1.png::CompressedTexture2D::1910601292710806026::1717997378::1718029665::1::::<><>::
 2.png::CompressedTexture2D::5195373869738735612::1717997378::1718029665::1::::<><>::
 3.png::CompressedTexture2D::5372145265316374448::1717997378::1718029665::1::::<><>::
 4.png::CompressedTexture2D::853696936241449598::1717997378::1718029665::1::::<><>::
 5.png::CompressedTexture2D::3945554782334920485::1717997378::1718029665::1::::<><>::
 6.png::CompressedTexture2D::2496061335927359163::1717997378::1718029665::1::::<><>::
-::res://Assets/dillionBoss/::1718158564
+::res://Assets/dillionBoss/::1718167317
 image.png::CompressedTexture2D::5978801646740199408::1718158560::1718158564::1::::<><>::
 Screenshot 2024-06-08 001044.png::CompressedTexture2D::2475210392085096219::1718158560::1718158564::1::::<><>::
-::res://Assets/healthbar/::1718159186
+::res://Assets/healthbar/::1718167317
 Pixel1_Healthbar_0001_pixel1_healthbar.png::CompressedTexture2D::1891271361091456423::1718159186::1718159186::1::::<><>::
 Pixel1_Healthbar_0002_pixel1_border.png::CompressedTexture2D::3240902131201880338::1718159186::1718159186::1::::<><>::
 Pixel2_Healthbar_0004_Background.png::CompressedTexture2D::3786425111902934534::1718159186::1718159186::1::::<><>::
-::res://Assets/moms_typewriter/::1718159198
+::res://Assets/moms_typewriter/::1718167317
 Mom«t___.ttf::FontFile::7192200473737582140::1718159198::1718159198::1::::<><>::
 MTReadme.txt::TextFile::-1::1718159198::0::1::::<><>::
-::res://Assets/Monster/::1718157741
+::res://Assets/Monster/::1718167317
 idle_down (1).png::CompressedTexture2D::8757839799493975959::1717997378::1718029665::1::::<><>::
 idle_down (2).png::CompressedTexture2D::4106101847665571902::1717997378::1718029665::1::::<><>::
 idle_down (3).png::CompressedTexture2D::493521440258364227::1717997378::1718029665::1::::<><>::
@@ -138,14 +138,14 @@ jump_up_right (6).png::CompressedTexture2D::3708021110232597030::1717997378::171
 jump_up_right (7).png::CompressedTexture2D::1239206332380141930::1717997378::1718029665::1::::<><>::
 jump_up_right (8).png::CompressedTexture2D::5604335589247656530::1717997378::1718029665::1::::<><>::
 mage.png::CompressedTexture2D::6430386563816692612::1717997378::1718029664::1::::<><>::
-::res://Assets/Player/::1718157741
+::res://Assets/Player/::1718167317
 mage.png::CompressedTexture2D::1726762398029910834::1717997378::1718029664::1::::<><>::
 mageIdle.png::CompressedTexture2D::832709841685336568::1717997378::1718029664::1::::<><>::
 mageLeft.png::CompressedTexture2D::3728650777112840434::1717997378::1718029664::1::::<><>::
 mageRight.png::CompressedTexture2D::2358357418092293337::1717997378::1718029664::1::::<><>::
 mageUp.png::CompressedTexture2D::5021868710545794057::1717997378::1718029664::1::::<><>::
 spritesheet-removebg-preview.png::CompressedTexture2D::1254947899366358496::1717997378::1718029664::1::::<><>::
-::res://Assets/Skeleton/::1718157738
+::res://Assets/Skeleton/::1718167317
 idle_down (1).png::CompressedTexture2D::7828425373288228504::1717997378::1718029664::1::::<><>::
 idle_down (2).png::CompressedTexture2D::3369157649780209090::1717997378::1718029664::1::::<><>::
 idle_down (3).png::CompressedTexture2D::5920276660577836495::1717997378::1718029664::1::::<><>::
@@ -206,13 +206,13 @@ jump_up_right (5).png::CompressedTexture2D::3114419093038779887::1717997378::171
 jump_up_right (6).png::CompressedTexture2D::6916263174255732752::1717997378::1718029665::1::::<><>::
 jump_up_right (7).png::CompressedTexture2D::1882524011518239070::1717997378::1718029665::1::::<><>::
 jump_up_right (8).png::CompressedTexture2D::658896387790478093::1717997378::1718029665::1::::<><>::
-::res://Assets/sounds/::1718161121
+::res://Assets/sounds/::1718167317
 05._Greenpath.mp3::AudioStreamMP3::1639080992856899895::1717997378::1718159338::1::::<><>::
 05._GreenpathEncounter(1).mp3::AudioStreamMP3::3670064146449161797::1717997378::1718159359::1::::<><>::
 boom.mp3::AudioStreamMP3::3615076259113597656::1717997378::1718159399::1::::<><>::
 ow.mp3::AudioStreamMP3::5989215432519157528::1717997378::1718159401::1::::<><>::
 Soul of Cinder (320).mp3::AudioStreamMP3::3351172145449150281::1718161121::1718161121::1::::<><>::
-::res://Assets/tiles/::1718157741
+::res://Assets/tiles/::1718167317
 Outside_1_2.png::CompressedTexture2D::9139434525742449593::1717997378::1718029665::1::::<><>::
 Outside_1_3.png::CompressedTexture2D::4022369371433700030::1717997378::1718029664::1::::<><>::
 Outside_3_3.png::CompressedTexture2D::6809310656712975048::1717997378::1718029664::1::::<><>::
@@ -223,13 +223,13 @@ Outside_8_4.png::CompressedTexture2D::1040980072749016771::1717997378::171802966
 Outside_8_5.png::CompressedTexture2D::8812226198402874635::1717997378::1718029664::1::::<><>::
 Outside_8_6.png::CompressedTexture2D::4773336715590624974::1717997378::1718029664::1::::<><>::
 Outside_8_7.png::CompressedTexture2D::5815555488089685030::1717997378::1718029664::1::::<><>::
-::res://Enemy/::1718167069
+::res://Enemy/::1718167317
 demon.gd::GDScript::-1::1718160410::0::1::::<>CharacterBody2D<>::
 demon.tscn::PackedScene::6985334463464899589::1718167069::0::1::::<><>::res://Enemy/demon.gd<>uid://dw1mlvkpey7qx::::res://Assets/Monster/idle_down (1).png
 Jimmy.png::CompressedTexture2D::8380547158629135884::1717997378::1718029664::1::::<><>::
 skeleton.gd::GDScript::-1::1718160413::0::1::::<>CharacterBody2D<>::
 skeleton.tscn::PackedScene::7720760156552816135::1718167069::0::1::::<><>::res://Enemy/skeleton.gd<>uid://djsfa0uu52uxc::::res://Assets/Skeleton/idle_down (1).png
-::res://Enemy/boss/::1718167069
+::res://Enemy/boss/::1718167317
 boss.gd::GDScript::-1::1718166470::0::1::::<>CharacterBody2D<>::
 boss.tscn::PackedScene::6636655614210757826::1718167069::0::1::::<><>::res://Enemy/boss/boss.gd<>uid://dmfc5ftfvd0ie::::res://Enemy/boss/bossBullet.tscn<>uid://bbjamaw7ax2dr::::res://Assets/dillionBoss/Screenshot 2024-06-08 001044.png<>uid://c6f2q47akv7vk::::res://Enemy/boss/bossWave.tscn<>uid://bj3hmcmc1326q::::res://Enemy/boss/bossBeam.tscn<>uid://b17svblli8x1k::::res://Enemy/boss/boss_healthbar.tres<>uid://crlhrdvl1ni7q::::res://Assets/sounds/ow.mp3<>uid://brrf1pfmwrc6k::::res://Assets/sounds/boom.mp3
 bossBeam.gd::GDScript::-1::1718158484::0::1::::<>RayCast2D<>::
@@ -240,7 +240,7 @@ bossWave.gd::GDScript::-1::1718158484::0::1::::<>Area2D<>::
 bossWave.tscn::PackedScene::6960686913067799708::1718158484::0::1::::<><>::res://Enemy/boss/bossWave.gd<>uid://ddhprh5xig6x8::::res://Assets/bossDillion/01.png
 boss_healthbar.tres::Theme::4278521183981658626::1718167069::0::1::::<><>::
 Jimmy.gd::GDScript::-1::1718158484::0::1::::<>CharacterBody2D<>::
-::res://Menui/::1718167104
+::res://Menui/::1718167317
 Doraemon 9 languages (acapella) (mp3cut.net).mp3::AudioStreamMP3::645016074467065660::1718166808::1718166808::1::::<><>::
 End.gd::GDScript::-1::1718165457::0::1::::<>Control<>::
 End.tscn::PackedScene::849401657175286::1718167069::0::1::::<><>::res://Menui/End.gd<>uid://bkl054p30ckyc::::res://Assets/Clouds/Clouds 3/1.png<>uid://bal68r1ad3op5::::res://Assets/Clouds/Clouds 3/4.png<>uid://edyuwgbi83e2::::res://Assets/Clouds/Clouds 3/3.png<>uid://ebrcl0j06bqx::::res://Assets/Clouds/Clouds 3/2.png<>uid://cj2m2nsk5d8x7::::res://Menui/Play Button.png<>uid://cm6ucsw7kgtnv::::res://Menui/Exit Button.png<>uid://jgpk5ri8c0hk::::res://Menui/Doraemon 9 languages (acapella) (mp3cut.net).mp3
@@ -249,7 +249,7 @@ mainMenu.gd::GDScript::-1::1718167099::0::1::::<>Control<>::
 mainMenu.tscn::PackedScene::421016977232562387::1718167104::0::1::::<><>::res://Menui/mainMenu.gd<>uid://busruwg4e2yel::::res://Assets/Clouds/Clouds 5/1.png<>uid://c5d3hgrc0m1hf::::res://Assets/Clouds/Clouds 5/4.png<>uid://58tbfuvgprlc::::res://Assets/Clouds/Clouds 5/5.png<>uid://dxm7g7gmrqtd5::::res://Assets/Clouds/Clouds 5/3.png<>uid://cj2m2nsk5d8x7::::res://Menui/Play Button.png<>uid://cm6ucsw7kgtnv::::res://Menui/Exit Button.png<>uid://q2ddpn5bxoqn::::res://Menui/Plants vs. Zombies sound effect (acapella).mp3
 Plants vs. Zombies sound effect (acapella).mp3::AudioStreamMP3::1178948015226175533::1718166973::1718166973::1::::<><>::
 Play Button.png::CompressedTexture2D::5461056690941369834::1718081028::1718163688::1::::<><>::
-::res://Player/::1718167069
+::res://Player/::1718167317
 BulletArea.gd::GDScript::-1::1718086267::0::1::::<>Area2D<>::
 BulletScene.tscn::PackedScene::8979747216074415516::1718086267::0::1::::<><>::res://Player/BulletArea.gd<>uid://pjl3odnb1lre::::res://Assets/laserRed01.png
 dash.tscn::PackedScene::794474424261190534::1718159513::0::1::::<><>::
@@ -266,8 +266,8 @@ pow.mp3::AudioStreamMP3::2016383243363902589::1717997378::1718029664::1::::<><>:
 Right.res::Animation::4689278921181448997::1718118143::0::1::::<><>::
 sprite.gd::GDScript::-1::1718086267::0::1::::<>Sprite2D<>::
 Up.res::Animation::9108645845665920481::1718118143::0::1::::<><>::
-::res://PSD/::1718157724
-::res://World/::1718167069
+::res://PSD/::1718167317
+::res://World/::1718167317
 displayHealthBar.gd::GDScript::-1::1718165345::0::1::::<>TextureProgressBar<>::
 Jimmy.gd::GDScript::-1::1717997378::0::1::::<>CharacterBody2D<>::
 Label.gd::GDScript::-1::1718086267::0::1::::<>Label<>::
